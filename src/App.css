@@ -1,0 +1,40 @@
+body {
+  background-color: #fff0f5; /* Branco rosado */
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #ffb6c1; /* Rosa claro */
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ff69b4; /* Rosa choque no hover */
+}
+
+h1 {
+  color: #db7093; /* Rosa escuro */
+  text-align: center;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 800px;
+  border: 2px solid #ffc0cb;
+  box-shadow: 5px 5px 0px #ffc0cb;
+}
